@@ -3,7 +3,7 @@ html{
 }
 
 /* header style*/
-header {
+.title {
   background-color: #22577a;
   margin-bottom: 40px;
   display: block;
