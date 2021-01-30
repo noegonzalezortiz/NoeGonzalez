@@ -18,14 +18,43 @@ header h1 {
   font-size: 48px;
 }
 
-/* profile image */
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+img {
+  width: 100%;
+}
+
+img.rounded {
+  border-radius: 8px;
+}
+
+/* profile image 
 img {
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%; 
-}
+}*/
 
 /* body */
 main { 
@@ -35,20 +64,52 @@ margin-left: 10%;
 margin-right: 10%;
 }
 
+/* Groups & Items  (Mobile First) */
+.wrapper {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* Groups & Items  (Desktop) */
+
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
 
 /*pseudo for hyperlinks*/
 
           /* Default */
           a {
-            color: blue;
+            color: whitesmoke;
           }
           /* Unvisited*/
           a:link {
-            color: blue;
+            color: whitesmoke;
           }
           /* Visited*/
           a:visited {
-            color: purple;
+            color: yellow;
           }
           /* Hover */
           a:hover {
@@ -68,10 +129,34 @@ margin-right: 10%;
 }
 
 .btn-default {
-  color: #333;
-  background-color: #fff;
+  color: #22577a;
+  background-color: #22577a;
   border: 1px solid #ccc;
 }
+
+/* Contact Form */
+
+form {
+  padding-right: 8px;
+  
+  /* Fixed small sizing issue on the right */
+}
+
+form label {
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
+
 
 /* footer */
 footer {

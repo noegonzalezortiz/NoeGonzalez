@@ -8,51 +8,138 @@
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
   
-          <body>
-              <!--Header- could be name or name of the site/portfolio-->
-              <header class = "title">
-                <h1>Noe Gonzalez</h1>
-              </header>
+    <body>
+        <!--Header- could be name or name of the site/portfolio-->
+        <header class = "title">
+          <h1>Noe Gonzalez</h1>
+          <nav>
+                <ul id="menu">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#aboutMe">About</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+		      </nav>
+        </header>
 
-            <main>
+    <main>
+        <!--Brief Introduction-->
+        <div class="wrapper">
+          <article id="home">
+            <div class='group'>
+              <div class='item'>
               <!--Profile Image-->
                 <img src="images/61038024_316287399286172_8376757364891582464_n.jpg" alt= "Noe Gonzalez Ortiz Profile Picture" class="image-style"> 
+              </div>
 
+              <div class='item'>
+                <section>
+                    <h2>Hi! My name is Noe Gonzalez</h2>
+                    <p class= "intro">  I live in the small town of Stephentown, New York. People consider me an avid learner. My different studies have taken me to work as a teacher, office manager, medical interpreter, computer tech, handyman and woodworker.</p> 
 
-              <!--Brief Introduction-->
-              <h2>Intro</h2> 
-                  <p>Hi! My name is Noe Gonzalez, I live in the small town of Stephentown, New York. People consider me an avid learner, my different studies have taken me to work as a teacher, office manager, medical interpreter, computer tech, handyman and woodworker.</p> 
+                    <p>One of my outstanding traits is that I am a hard working professional eager to help people with their tech/ web development needs.
+                    </p>
+                </section>
+              </div>
+            </div>
+          </article>
+        </div>
               <hr>
 
               <!--About Me Including Interest-->
-          <article>     
-             <header>
-                  <h2>About Me</h2> 
-             </header>     
-                  <p>I am a web development student, passionate about the tech world and the rapid growth of web development. Throughout this past year I have notice the need of more web development solutions to our everyday life situation. As a former computer lab teacher I beleive that there is no I in team, working together we can acomplish so much more. </p> 
-                    
-                  <p>Coming back to my tech roots have made me eager to learn and share my knowledge and experiences with others.</p>
-              
-
-                  <section>                
-                      <h3>Other Interests:</h3>
-                          <p>During the past couple of years I have developed other hobbies/ interests as self care. These include:
-                          </p>
-                          <!--Unordered List of Interests-->
-                              <ol>
-                                  <li>Woodcarving</li>
-                                  <li>Pyrography</li>
-                                  <li>Watercolor Painting</li>
-                              </ol>
-                  </section>
+          <div class= "wrapper">
+            <article id= "aboutMe"> 
+                <h2>About Me</h2> 
+                  <section>
+                    <div>     
+                          <p>I am a web development student, passionate about the tech world and the rapid growth of web development. Throughout this past year I have notice the need of more web development solutions to our everyday life situation. As a former computer lab teacher I beleive that there is no I in team, working together we can acomplish so much more. </p> 
+                            
+                          <p>Coming back to my tech roots have made me eager to learn and share my knowledge and experiences with others.</p>
+                    </div>
+                </section>  
+             </div>
           </article>
-                        
-                  
+
+          <article id= "otherInterest">     
+             <div class= "wrapper">                      
+                      <h3>Other Interests:</h3>
+                  <div>
+                      <p>During the past couple of years I have developed other hobbies/ interests as self care. These include:
+                      </p>
+                      <!--Unordered List of Interests-->
+                          <ol>
+                              <li>Woodcarving</li>
+                              <li>Pyrography</li>
+                              <li>Watercolor Painting</li>
+                          </ol>
+                  </div>
+             </div>
+          </article>
+          
+    <hr>
+
+<!--This is placeholder content and will be updated as I create projects-->                 
+        <div class="wrapper">
+            <article id="portfolio">
+                <h2>Portfolio</h2>
+                  <section>  
+                        <div class='group'>
+                              <div class='item'>
+                                <img src="images/placeholder.png" alt="project 1" class="rounded">
+                                <h3>Project 1</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id felis risus. Proin augue elit, tincidunt non massa eget, tristique porta velit. Quisque at lorem quis lacus ultrices mattis eu ut justo. Cras egestas, sem.</p>
+
+                                <a href="#" class="btn btn-default">Project 1 Live</a>
+                                <a href="#" class="btn btn-default">Project 1 Github</a>
+
+                              </div>
+                     
+
+                              <div class='item'>
+                                  <img src="images/placeholder.png" alt="project 2" class="rounded">
+                                  <h3>Project 2</h3>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id felis risus. Proin augue elit, tincidunt non massa eget, tristique porta velit. Quisque at lorem quis lacus ultrices mattis eu ut justo. Cras egestas, sem.</p>
+
+                                  <a href="#" class="btn btn-default">Project 2 Live</a>
+                                  <a href="#" class="btn btn-default">Project 2 Github</a>
+
+                              </div>
+                        </div>
+
+<!--This is placeholder content and will be updated as I create projects-->
+              <div class='group'>
+                      <div class='item'>
+                          <img src="images/placeholder.png" alt="project 3" class="rounded">
+                          <h3>Project 3</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id felis risus. Proin augue elit, tincidunt non massa eget, tristique porta velit. Quisque at lorem quis lacus ultrices mattis eu ut justo. Cras egestas, sem.</p>
+
+                          <a href="#" class="btn btn-default">Project 3 Live</a>
+                          <a href="#" class="btn btn-default">Project 3 Github</a>
+
+                      </div>
+
+                      <div class='item'>
+                        <img src="images/placeholder.png" alt="Project 4" class="rounded">
+                        <h3>Project 4</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id felis risus. Proin augue elit, tincidunt non massa eget, tristique porta velit. Quisque at lorem quis lacus ultrices mattis eu ut justo. Cras egestas, sem.</p>
+
+                        <a href="#" class="btn btn-default">Project 4 Live</a>
+                        <a href="#" class="btn btn-default">Project 4 Github</a>
+
+                      </div>
+                  </div>
+                </section>
+            </article>
+          </div> 
+
               <hr>
 
               <!--Contact Information-->
+          <div class="wrapper">
+            <section id="contact">
               <h2>Contact Me</h2>
-                <div> 
+              <div class="group">
+                <div class="item">
                   <ul>
                       <li>
                             <a href="https://www.linkedin.com/in/noe-gonzalez-ortiz-b4759153/" class="btn btn-default" target="_blank">Linkedin</a>
@@ -64,9 +151,30 @@
                             <a href="mailto:noe.gonzalezortiz@gmail.com" class="btn btn-default">Email</a>
                       </li>
                   </ul>
-                </div>              
-                    
-            </main>
+                </div> 
+
+
+                <div class="item">
+                    <form action="https://formspree.io/noe.gonzalezortiz@me.com" method="POST">
+                        <label for="user-name">Name:</label>
+                        <input id="user-name" type="text" name="name">
+
+                        <label for="user-email">Email:</label>
+                        <input id="user-email" type="text" name="email">
+
+                        <label for="user-message">Message:</label>
+                        <textarea id="user-message" name="message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+              </div>
+
+                
+                     
+            </section>     
+          </div>
+    </main>
+              
               <script src="script.js"></script>
           
       <footer>
